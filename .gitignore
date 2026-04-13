@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+env/
+venv/
+.venv/
+
+# Generated outputs (reproducible — re-run main.py)
+outputs/models/*.pkl
+outputs/plots/*.png
+outputs/report.html
+
+# Generated data (reproducible — re-run main.py)
+data/student_data.csv
+data/student_cleaned.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
